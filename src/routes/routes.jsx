@@ -4,7 +4,8 @@ import Root from "../layouts/Root/Root";
 const router = createBrowserRouter([
     {
         path:'/',
-        element:<Root/>
+        element:<Root/>,
+        loader: () => fetch('/data/listed_properties.json'),
     }
 ])
 
