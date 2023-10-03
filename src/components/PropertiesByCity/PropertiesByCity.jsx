@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import { useLoaderData } from 'react-router-dom';
 import {CgSandClock} from 'react-icons/cg'
+import PropertyCard from '../PropertyCard/PropertyCard';
 
 const PropertiesByCity = () => {
 
@@ -35,7 +36,7 @@ const PropertiesByCity = () => {
 
 
     return (
-        <div>
+        <div className='mx-10'>
             <div className='flex items-center justify-center'>
                 <SectionTitle
                 heading='Featured Listed Property'
@@ -52,7 +53,7 @@ const PropertiesByCity = () => {
             </div>
             <div className='grid md:grid-cols-3 gap-5 mb-10'>
                 {
-                    featuredPropertyData.map(property => <p property={property}>{property.price}</p>)
+                    featuredPropertyData.map(property => <PropertyCard property={property} key={property.id}>{property.price}</PropertyCard>)
                 }
             </div>
             <div className='flex items-center justify-center'>
