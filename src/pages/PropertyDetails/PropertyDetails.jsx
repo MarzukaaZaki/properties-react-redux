@@ -5,6 +5,7 @@ import { LiaBuilding, LiaBedSolid } from 'react-icons/lia'
 import {PiBathtubLight} from 'react-icons/pi'
 import {BsArrowsMove} from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const PropertyDetails = () => {
     const allListedProperties = useLoaderData();
@@ -36,9 +37,14 @@ const PropertyDetails = () => {
     const { id,name, price, popularity, listingType, numberOfRooms, numberOfBeds, numberOfBaths, area, street, address, images } = selectedPropertyData;
     
     return (
-        <div style={{minHeight:'500ppx'}}>
+        <div>
+            <div className='w-full text-center py-10'>
+                <SectionTitle
+                heading='Property Details'
+                subHeading={`Details of property listing ${name}.`} />
+            </div>
             <div
-                class="block rounded-lg bg-white text-black" style={{minHeight:'530px'}}>
+                class="block w-1/2 ms-10 mb-10 rounded-lg bg-white text-black" style={{minHeight:'530px'}}>
                 <a href="#!">
                     <img
                         className="rounded-lg p-2"
