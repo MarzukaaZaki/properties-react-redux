@@ -1,8 +1,12 @@
-# React + Vite
+# Hotel Listing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Main Features
+- Displays hotel listings of different cities, on clicking city tabs 
+- By default shows 6 properties under each city tab, loads 3 more properties on clicking the show all button.
+- On clicking Read More button on the listing cards, it goes to a different page
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies Used
+- [React.js](https://react.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router V6](https://reactrouter.com/en/main/)
+- [TailwindCSS](https://tailwindcss.com/)
