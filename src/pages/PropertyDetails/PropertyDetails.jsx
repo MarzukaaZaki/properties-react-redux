@@ -1,17 +1,42 @@
 import React from 'react';
+import { useLoaderData, useParams } from 'react-router-dom';
 import { IoLocationOutline } from 'react-icons/io5'
 import { LiaBuilding, LiaBedSolid } from 'react-icons/lia'
 import {PiBathtubLight} from 'react-icons/pi'
 import {BsArrowsMove} from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom';
 
-const PropertyCard = ({ property }) => {
-    const { id,name, price, popularity, listingType, numberOfRooms, numberOfBeds, numberOfBaths, area, street, address, images } = property;
-    // console.log(numberOfBaths)
+const PropertyDetails = () => {
+    const allListedProperties = useLoaderData();
+    console.log(allListedProperties);
+    const selectedPropertyId = useParams().id;
+    let selectedPropertyData = {};
 
-    const navigate = useNavigate();
+    // Find the property data of the specific property by id
+    for(const property in allListedProperties){
+        if (Object.prototype.hasOwnProperty.call(allListedProperties, property)) {
+            // // Search for the object with the specific ID in the current property's array
+            // const found = allListedProperties.property.find(item => item.id === selectedPropertyId);
+            
+            // if (found) {
+            //   // If found, assign the result and break out of the loop
+            // //   selectedPropertyData = found;
+            // console.log(found)
+            //   break;
+            // }
+            console.log(allListedProperties[property])
+            selectedPropertyData = allListedProperties[property].find(item => item.id == selectedPropertyId);
+            
+            
+          }
+    }
+
+    // console.log(selectedPropertyData);
+
+    const { id,name, price, popularity, listingType, numberOfRooms, numberOfBeds, numberOfBaths, area, street, address, images } = selectedPropertyData;
+    
     return (
-        <div>
+        <div style={{minHeight:'500ppx'}}>
             <div
                 class="block rounded-lg bg-white text-black" style={{minHeight:'530px'}}>
                 <a href="#!">
@@ -42,7 +67,7 @@ const PropertyCard = ({ property }) => {
                         </div>
                         <div>
                             <BsArrowsMove/>
-                            {numberOfBaths} sft
+                            {area} sft
                         </div>
                     </div>
 
@@ -51,7 +76,6 @@ const PropertyCard = ({ property }) => {
                         <p className='text-xl text-[#373ae3]'>${price}<span className='text-black'> /month</span></p>
 
                         <button
-                            onClick={()=>navigate(`/property/${id}`)}
                             type="button"
                             class="inline-block rounded-full border border-[#373ae3] text-[#373ae3] px-4 pb-2 pt-2.5 font-medium  leading-normal"
                             data-te-ripple-init
@@ -61,9 +85,10 @@ const PropertyCard = ({ property }) => {
                     </div>
                 </div>
             </div>
+            
 
         </div>
     );
 };
 
-export default PropertyCard;
+export default PropertyDetails;

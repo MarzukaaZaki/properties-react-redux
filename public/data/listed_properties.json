@@ -1,10 +1,10 @@
 {
    
-    "__comment1__": "Data for properties in London",
+
     "London": [
         {
-          "id": "P33V1W",
           "name": "Buckingham Palace Bliss",
+          "id": "P33V1W",
           "popularity": "Popular",
           "listingType": "For Sale",
           "street": "Buckingham Palace",
@@ -12,7 +12,8 @@
           "numberOfRooms": 3,
           "numberOfBeds": 2,
           "numberOfBaths": 2,
-          "price": "15,000",
+          "price": 900000,
+          "area": 1500,
           "images": [
             "image120.jpg",
             "image121.jpg",
@@ -20,8 +21,8 @@
           ]
         },
         {
-          "id": "P34W2X",
           "name": "Big Ben Beauty",
+          "id": "P34W2X",
           "popularity": "Regular",
           "listingType": "For Rent",
           "street": "Big Ben",
@@ -29,15 +30,16 @@
           "numberOfRooms": 2,
           "numberOfBeds": 1,
           "numberOfBaths": 1,
-          "price": "2,000",
+          "price": 1500,
+          "area": 800,
           "images": [
             "image123.jpg",
             "image124.jpg"
           ]
         },
         {
-          "id": "P35X3Y",
           "name": "Tower Bridge Treasure",
+          "id": "P35X3Y",
           "popularity": "Popular",
           "listingType": "For Rent",
           "street": "Tower Bridge",
@@ -45,7 +47,8 @@
           "numberOfRooms": 4,
           "numberOfBeds": 3,
           "numberOfBaths": 3,
-          "price": "3,500",
+          "price": 2500,
+          "area": 1800,
           "images": [
             "image125.jpg",
             "image126.jpg",
@@ -54,8 +57,8 @@
           ]
         },
         {
-          "id": "P36Y4Z",
           "name": "London Eye Elegance",
+          "id": "P36Y4Z",
           "popularity": "Regular",
           "listingType": "For Sale",
           "street": "London Eye",
@@ -63,7 +66,8 @@
           "numberOfRooms": 5,
           "numberOfBeds": 4,
           "numberOfBaths": 4,
-          "price": "20,000",
+          "price": 1500000,
+          "area": 2000,
           "images": [
             "image129.jpg",
             "image130.jpg",
@@ -73,8 +77,8 @@
           ]
         },
         {
-          "id": "P37A2B",
           "name": "Hyde Park Luxury",
+          "id": "P37A2B",
           "popularity": "Popular",
           "listingType": "For Sale",
           "street": "Hyde Park",
@@ -82,15 +86,16 @@
           "numberOfRooms": 1,
           "numberOfBeds": 1,
           "numberOfBaths": 1,
-          "price": "5,000",
+          "price": 300000,
+          "area": 600,
           "images": [
             "image134.jpg",
             "image135.jpg"
           ]
         },
         {
-          "id": "P38B1C",
           "name": "Trafalgar Square Thrill",
+          "id": "P38B1C",
           "popularity": "Regular",
           "listingType": "For Sale",
           "street": "Trafalgar Square",
@@ -98,15 +103,16 @@
           "numberOfRooms": 2,
           "numberOfBeds": 2,
           "numberOfBaths": 2,
-          "price": "8,000",
+          "price": 600000,
+          "area": 1000,
           "images": [
             "image136.jpg",
             "image137.jpg"
           ]
         },
         {
-          "id": "P39C4D",
           "name": "Piccadilly Circus Charm",
+          "id": "P39C4D",
           "popularity": "Popular",
           "listingType": "For Rent",
           "street": "Piccadilly Circus",
@@ -114,7 +120,8 @@
           "numberOfRooms": 3,
           "numberOfBeds": 2,
           "numberOfBaths": 2,
-          "price": "2,500",
+          "price": 2000,
+          "area": 1200,
           "images": [
             "image138.jpg",
             "image139.jpg",
@@ -122,8 +129,8 @@
           ]
         },
         {
-          "id": "P40D3E",
           "name": "Westminster Abbey Wonder",
+          "id": "P40D3E",
           "popularity": "Regular",
           "listingType": "For Rent",
           "street": "Westminster Abbey",
@@ -131,15 +138,16 @@
           "numberOfRooms": 1,
           "numberOfBeds": 1,
           "numberOfBaths": 1,
-          "price": "1,500",
+          "price": 1000,
+          "area": 500,
           "images": [
             "image141.jpg",
             "image142.jpg"
           ]
         },
         {
-          "id": "P41E2F",
           "name": "British Museum Bliss",
+          "id": "P41E2F",
           "popularity": "Popular",
           "listingType": "For Sale",
           "street": "British Museum",
@@ -147,7 +155,8 @@
           "numberOfRooms": 4,
           "numberOfBeds": 3,
           "numberOfBaths": 3,
-          "price": "10,000",
+          "price": 800000,
+          "area": 1600,
           "images": [
             "image143.jpg",
             "image144.jpg",
@@ -156,145 +165,155 @@
           ]
         }
       ],
-    "__comment2__": "Data for properties in Mumbai",
+    
     "Mumbai": [
         {
-          "id": "P6A4B",
-          "name": "Sea View",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Marine Drive",
-          "address": "Flat #101, Marine Drive, Mumbai 400002",
-          "numberOfRooms": 3,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "4,667",
-          "images": [
-            "image37.jpg",
-            "image38.jpg",
-            "image39.jpg"
-          ]
-        },
-        {
-          "id": "P7C3D",
-          "name": "Bandra Bliss",
-          "popularity": "Regular",
-          "listingType": "For Rent",
-          "street": "Bandra",
-          "address": "Apartment #15, Bandra, Mumbai 400050",
-          "numberOfRooms": 2,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "2,000",
-          "images": [
-            "image40.jpg",
-            "image41.jpg"
-          ]
-        },
-        {
-          "id": "P8E2F",
-          "name": "Colaba Cottage",
-          "popularity": "Popular",
-          "listingType": "For Rent",
-          "street": "Colaba",
-          "address": "House #5, Colaba, Mumbai 400005",
-          "numberOfRooms": 4,
-          "numberOfBeds": 3,
-          "numberOfBaths": 3,
-          "price": "4,000",
-          "images": [
-            "image42.jpg",
-            "image43.jpg",
-            "image44.jpg",
-            "image45.jpg"
-          ]
-        },
-        {
-          "id": "P9G1H",
-          "name": "Andheri Abode",
-          "popularity": "Regular",
-          "listingType": "For Sale",
-          "street": "Andheri",
-          "address": "Flat #7, Andheri, Mumbai 400053",
-          "numberOfRooms": 2,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "2,000",
-          "images": [
-            "image46.jpg",
-            "image47.jpg"
-          ]
-        },
-        {
-          "id": "P10I4J",
-          "name": "Juhu Joy",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Juhu",
-          "address": "House #10, Juhu, Mumbai 400049",
-          "numberOfRooms": 5,
-          "numberOfBeds": 4,
-          "numberOfBaths": 4,
-          "price": "6,667",
-          "images": [
-            "image48.jpg",
-            "image49.jpg",
-            "image50.jpg",
-            "image51.jpg",
-            "image52.jpg"
-          ]
-        },
-        {
-          "id": "P11K3L",
-          "name": "Malabar Mansion",
-          "popularity": "Regular",
-          "listingType": "For Rent",
-          "street": "Malabar Hill",
-          "address": "Flat #9, Malabar Hill, Mumbai 400006",
-          "numberOfRooms": 3,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "3,000",
-          "images": [
-            "image53.jpg",
-            "image54.jpg",
-            "image55.jpg"
-          ]
-        },
-        {
-          "id": "P12M2N",
-          "name": "Worli Wonder",
-          "popularity": "Popular",
-          "listingType": "For Rent",
-          "street": "Worli",
-          "address": "Apartment #6, Worli, Mumbai 400018",
-          "numberOfRooms": 4,
-          "numberOfBeds": 3,
-          "numberOfBaths": 3,
-          "price": "3,500",
-          "images": [
-            "image56.jpg",
-            "image57.jpg",
-            "image58.jpg",
-            "image59.jpg"
-          ]
-        },
-        {
-          "id": "P13O1P",
-          "name": "Powai Palace",
-          "popularity": "Regular",
-          "listingType": "For Sale",
-          "street": "Powai",
-          "address": "Flat #8, Powai, Mumbai 400076",
-          "numberOfRooms": 2,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "2,200",
-          "images": [
-            "image60.jpg",
-            "image61.jpg"
-          ]
-        },
+            "name": "Sea View",
+            "id": "P6A4B",
+            "popularity": "Popular",
+            "listingType": "For Sale",
+            "street": "Marine Drive",
+            "address": "Flat #101, Marine Drive, Mumbai 400002",
+            "numberOfRooms": 3,
+            "numberOfBeds": 2,
+            "numberOfBaths": 2,
+            "price": 50000000,
+            "area": 1400,
+            "images": [
+              "image37.jpg",
+              "image38.jpg",
+              "image39.jpg"
+            ]
+          },
+          {
+            "name": "Bandra Bliss",
+            "id": "P7C3D",
+            "popularity": "Regular",
+            "listingType": "For Rent",
+            "street": "Bandra",
+            "address": "Apartment #15, Bandra, Mumbai 400050",
+            "numberOfRooms": 2,
+            "numberOfBeds": 1,
+            "numberOfBaths": 1,
+            "price": 25000,
+            "area": 800,
+            "images": [
+              "image40.jpg",
+              "image41.jpg"
+            ]
+          },
+          {
+            "name": "Colaba Cottage",
+            "id": "P8E2F",
+            "popularity": "Popular",
+            "listingType": "For Rent",
+            "street": "Colaba",
+            "address": "House #5, Colaba, Mumbai 400005",
+            "numberOfRooms": 4,
+            "numberOfBeds": 3,
+            "numberOfBaths": 3,
+            "price": 40000,
+            "area": 1800,
+            "images": [
+              "image42.jpg",
+              "image43.jpg",
+              "image44.jpg",
+              "image45.jpg"
+            ]
+          },
+          {
+            "name": "Andheri Abode",
+            "id": "P9G1H",
+            "popularity": "Regular",
+            "listingType": "For Sale",
+            "street": "Andheri",
+            "address": "Flat #7, Andheri, Mumbai 400053",
+            "numberOfRooms": 2,
+            "numberOfBeds": 2,
+            "numberOfBaths": 2,
+            "price": 30000000,
+            "area": 1000,
+            "images": [
+              "image46.jpg",
+              "image47.jpg"
+            ]
+          },
+          {
+            "name": "Juhu Joy",
+            "id": "P10I4J",
+            "popularity": "Popular",
+            "listingType": "For Sale",
+            "street": "Juhu",
+            "address": "House #10, Juhu, Mumbai 400049",
+            "numberOfRooms": 5,
+            "numberOfBeds": 4,
+            "numberOfBaths": 4,
+            "price": 80000000,
+            "area": 2000,
+            "images": [
+              "image48.jpg",
+              "image49.jpg",
+              "image50.jpg",
+              "image51.jpg",
+              "image52.jpg"
+            ]
+          },
+      
+          {
+            "name": "Worli Wonder",
+            "id": "P12M2N",
+            "popularity": "Popular",
+            "listingType": "For Rent",
+            "street": "Worli",
+            "address": "Apartment #6, Worli, Mumbai 400018",
+            "numberOfRooms": 4,
+            "numberOfBeds": 3,
+            "numberOfBaths": 3,
+            "price": 35000,
+            "area": 1600,
+            "images": [
+              "image56.jpg",
+              "image57.jpg",
+              "image58.jpg",
+              "image59.jpg"
+            ]
+          },
+          {
+            "name": "Powai Palace",
+            "id": "P13O1P",
+            "popularity": "Regular",
+            "listingType": "For Sale",
+            "street": "Powai",
+            "address": "Flat #8, Powai, Mumbai 400076",
+            "numberOfRooms": 2,
+            "numberOfBeds": 2,
+            "numberOfBaths": 2,
+            "price": 25000000,
+            "area": 1200,
+            "images": [
+              "image60.jpg",
+              "image61.jpg"
+            ]
+          },
+          {
+            "name": "Dadar Dream",
+            "id": "P14Q4R",
+            "popularity": "Popular",
+            "listingType": "For Sale",
+            "street": "Dadar",
+            "address": "House #2, Dadar, Mumbai 400028",
+            "numberOfRooms": 4,
+            "numberOfBeds": 3,
+            "numberOfBaths": 3,
+            "price": "4,000",
+            "area": 1800,
+            "images": [
+              "image62.jpg",
+              "image63.jpg",
+              "image64.jpg",
+              "image65.jpg"
+            ]
+          },
         {
           "id": "P14Q4R",
           "name": "Dadar Dream",
@@ -306,6 +325,7 @@
           "numberOfBeds": 3,
           "numberOfBaths": 3,
           "price": "4,000",
+          "area": "2300",
           "images": [
             "image62.jpg",
             "image63.jpg",
@@ -314,318 +334,332 @@
           ]
         }
       ],
-    "__comment3__": "Data for properties in Paris",
+    
     "Paris": [
-        {
-          "id": "P15S3T",
-          "name": "Champs-Élysées Charm",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Champs-Élysées",
-          "address": "Flat #12, Champs-Élysées, Paris 75008",
-          "numberOfRooms": 3,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "7,500",
-          "images": [
-            "image66.jpg",
-            "image67.jpg",
-            "image68.jpg"
-          ]
-        },
-        {
-          "id": "P16U2V",
-          "name": "Montmartre Magic",
-          "popularity": "Regular",
-          "listingType": "For Rent",
-          "street": "Montmartre",
-          "address": "Apartment #7, Montmartre, Paris 75018",
-          "numberOfRooms": 2,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "1,500",
-          "images": [
-            "image69.jpg",
-            "image70.jpg"
-          ]
-        },
-        {
-          "id": "P17W1X",
-          "name": "Notre-Dame Nook",
-          "popularity": "Popular",
-          "listingType": "For Rent",
-          "street": "Notre-Dame",
-          "address": "House #5, Notre-Dame, Paris 75004",
-          "numberOfRooms": 4,
-          "numberOfBeds": 3,
-          "numberOfBaths": 3,
-          "price": "2,500",
-          "images": [
-            "image71.jpg",
-            "image72.jpg",
-            "image73.jpg",
-            "image74.jpg"
-          ]
-        },
-        {
-          "id": "P18Y4Z",
-          "name": "Eiffel Tower Elegance",
-          "popularity": "Regular",
-          "listingType": "For Sale",
-          "street": "Eiffel Tower",
-          "address": "Flat #10, Eiffel Tower, Paris 75007",
-          "numberOfRooms": 5,
-          "numberOfBeds": 4,
-          "numberOfBaths": 4,
-          "price": "12,500",
-          "images": [
-            "image75.jpg",
-            "image76.jpg",
-            "image77.jpg",
-            "image78.jpg",
-            "image79.jpg"
-          ]
-        },
-        {
-          "id": "P19A3B",
-          "name": "Louvre Luxury",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Louvre",
-          "address": "Flat #9, Louvre, Paris 75001",
-          "numberOfRooms": 1,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "3,000",
-          "images": [
-            "image80.jpg",
-            "image81.jpg"
-          ]
-        },
-        {
-          "id": "P20C2D",
-          "name": "Arc de Triomphe Treasure",
-          "popularity": "Regular",
-          "listingType": "For Sale",
-          "street": "Arc de Triomphe",
-          "address": "Flat #8, Arc de Triomphe, Paris 75008",
-          "numberOfRooms": 2,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "6,000",
-          "images": [
-            "image82.jpg",
-            "image83.jpg"
-          ]
-        },
-        {
-          "id": "P21E1F",
-          "name": "Latin Quarter Lure",
-          "popularity": "Popular",
-          "listingType": "For Rent",
-          "street": "Latin Quarter",
-          "address": "Apartment #6, Latin Quarter, Paris 75005",
-          "numberOfRooms": 3,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "2,000",
-          "images": [
-            "image84.jpg",
-            "image85.jpg",
-            "image86.jpg"
-          ]
-        },
-        {
-          "id": "P22G4H",
-          "name": "Sacre-Coeur Splendor",
-          "popularity": "Regular",
-          "listingType": "For Rent",
-          "street": "Sacre-Coeur",
-          "address": "Flat #5, Sacre-Coeur, Paris 75018",
-          "numberOfRooms": 1,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "1,000",
-          "images": [
-            "image87.jpg",
-            "image88.jpg"
-          ]
-        },
-        {
-          "id": "P23I3J",
-          "name": "Versailles Vibe",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Versailles",
-          "address": "House #2, Versailles, Paris 78000",
-          "numberOfRooms": 4,
-          "numberOfBeds": 3,
-          "numberOfBaths": 3,
-          "price": "8,000",
-          "images": [
-            "image89.jpg",
-            "image90.jpg",
-            "image91.jpg",
-            "image92.jpg"
-          ]
-        }
-      ],
-    "__comment4__": "Data for properties in New York",
+      {
+        "id": "P42E0F",
+        "name": "Arc de Triomphe Triumph",
+        "popularity": "Popular",
+        "listingType": "For Sale",
+        "street": "Arc de Triomphe",
+        "address": "Loft #8, Arc de Triomphe, Paris 75008 France",
+        "numberOfRooms": 4,
+        "numberOfBeds": 3,
+        "numberOfBaths": 2,
+        "price": 10000000,
+        "area": "2000",
+        "images": [
+          "image147.jpg",
+          "image148.jpg",
+          "image149.jpg"
+        ]
+      },
+      {
+        "id": "P43F1G",
+        "name": "Montmartre Magic",
+        "popularity": "Regular",
+        "listingType": "For Rent",
+        "street": "Montmartre",
+        "address": "Studio #5, Montmartre, Paris 75018 France",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "2,000",
+        "area": 400,
+        "images": [
+          "image150.jpg",
+          "image151.jpg"
+        ]
+      },
+      {
+        "id": "P44G2H",
+        "name": "Champs-Élysées Charm",
+        "popularity": "Popular",
+        "listingType": "For Rent",
+        "street": "Champs-Élysées",
+        "address": "Apartment #6, Champs-Élysées, Paris 75008 France",
+        "numberOfRooms": 3,
+        "numberOfBeds": 2,
+        "numberOfBaths": 2,
+        "price": "5,000",
+        "area": 1500,
+        "images": [
+          "image152.jpg",
+          "image153.jpg",
+          "image154.jpg"
+        ]
+      },
+      {
+        "id": "P45H3I",
+        "name": "Versailles Palace Prestige",
+        "popularity": "Popular",
+        "listingType": "For Sale",
+        "street": "Versailles Palace",
+        "address": "Villa #1, Versailles Palace, Paris 78000 France",
+        "numberOfRooms": 6,
+        "numberOfBeds": 5,
+        "numberOfBaths": 5,
+        "price": "2,000",
+        "area": 4000,
+        "images": [
+          "image155.jpg",
+          "image156.jpg",
+          "image157.jpg",
+          "image158.jpg"
+        ]
+      },
+      {
+        "id": "P46I4J",
+        "name": "Moulin Rouge Romance",
+        "popularity": "Regular",
+        "listingType": "For Rent",
+        "street": "Moulin Rouge",
+        "address": "Studio #7, Moulin Rouge, Paris 75018 France",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "2,500",
+        "area": 500,
+        "images": [
+          "image159.jpg",
+          "image160.jpg"
+        ]
+      },
+      {
+        "id": "P47J5K",
+        "name": "Sacre Coeur Serenity",
+        "popularity": "Popular",
+        "listingType": "For Rent",
+        "street": "Sacre Coeur",
+        "address": "Apartment #8, Sacre Coeur, Paris 75018 France",
+        "numberOfRooms": 2,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "3,000",
+        "area": 800,
+        "images": [
+          "image161.jpg",
+          "image162.jpg",
+          "image163.jpg"
+        ]
+      },
+      {
+        "id": "P48K6L",
+        "name": "Opera Garnier Glamour",
+        "popularity": "Popular",
+        "listingType": "For Sale",
+        "street": "Opera Garnier",
+        "address": "Penthouse, Opera Garnier, Paris 75009 France",
+        "numberOfRooms": 5,
+        "numberOfBeds": 4,
+        "numberOfBaths": 3,
+        "price": 12000000,
+        "area": "2,500",
+        "images": [
+          "image164.jpg",
+          "image165.jpg",
+          "image166.jpg"
+        ]
+      },
+      {
+        "id": "P49L7M",
+        "name": "Pompidou Center Chic",
+        "popularity": "Regular",
+        "listingType": "For Rent",
+        "street": "Pompidou Center",
+        "address": "Studio #9, Pompidou Center, Paris 75004 France",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "2,000",
+        "area": 400,
+        "images": [
+          "image167.jpg",
+          "image168.jpg"
+        ]
+      },
+      {
+        "id": "P50M8N",
+        "name": "Pantheon Pride",
+        "popularity": "Popular",
+        "listingType": "For Rent",
+        "street": "Pantheon",
+        "address": "Apartment #10, Pantheon, Paris 75005 France",
+        "numberOfRooms": 3,
+        "numberOfBeds": 2,
+        "numberOfBaths": 2,
+        "price":"4,000",
+        "area": 1200,
+        "images": [
+          "image169.jpg",
+          "image170.jpg",
+          "image171.jpg"
+        ]
+      }
+    ],
+   
     
     "New York": [
-        {
-          "id": "P24K2L",
-          "name": "Fifth Avenue Fantasy",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Fifth Avenue",
-          "address": "Flat #15, Fifth Avenue, New York NY 10022",
-          "numberOfRooms": 3,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "10,000",
-          "images": [
-            "image93.jpg",
-            "image94.jpg",
-            "image95.jpg"
-          ]
-        },
-        {
-          "id": "P25M1N",
-          "name": "Brooklyn Beauty",
-          "popularity": "Regular",
-          "listingType": "For Rent",
-          "street": "Brooklyn",
-          "address": "Apartment #8, Brooklyn, New York NY 11201",
-          "numberOfRooms": 2,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "2,000",
-          "images": [
-            "image96.jpg",
-            "image97.jpg"
-          ]
-        },
-        {
-          "id": "P26N4O",
-          "name": "Central Park Cozy",
-          "popularity": "Popular",
-          "listingType": "For Rent",
-          "street": "Central Park",
-          "address": "House #4, Central Park, New York NY 10024",
-          "numberOfRooms": 4,
-          "numberOfBeds": 3,
-          "numberOfBaths": 3,
-          "price": "3,000",
-          "images": [
-            "image98.jpg",
-            "image99.jpg",
-            "image100.jpg",
-            "image101.jpg"
-          ]
-        },
-        {
-          "id": "P27O3P",
-          "name": "Empire State Excellence",
-          "popularity": "Regular",
-          "listingType": "For Sale",
-          "street": "Empire State Building",
-          "address": "Flat #11, Empire State Building, New York NY 10118",
-          "numberOfRooms": 5,
-          "numberOfBeds": 4,
-          "numberOfBaths": 4,
-          "price": "16,667",
-          "images": [
-            "image102.jpg",
-            "image103.jpg",
-            "image104.jpg",
-            "image105.jpg",
-            "image106.jpg"
-          ]
-        },
-        {
-          "id": "P28Q2R",
-          "name": "Statue of Liberty Splurge",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Statue of Liberty",
-          "address": "Flat #7, Statue of Liberty, New York NY 10004",
-          "numberOfRooms": 1,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "4,167",
-          "images": [
-            "image107.jpg",
-            "image108.jpg"
-          ]
-        },
-        {
-          "id": "P29R1S",
-          "name": "Times Square Thrill",
-          "popularity": "Regular",
-          "listingType": "For Sale",
-          "street": "Times Square",
-          "address": "Flat #9, Times Square, New York NY 10036",
-          "numberOfRooms": 2,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "6,667",
-          "images": [
-            "image109.jpg",
-            "image110.jpg"
-          ]
-        },
-        {
-          "id": "P30S4T",
-          "name": "Wall Street Wonder",
-          "popularity": "Popular",
-          "listingType": "For Rent",
-          "street": "Wall Street",
-          "address": "Apartment #5, Wall Street, New York NY 10005",
-          "numberOfRooms": 3,
-          "numberOfBeds": 2,
-          "numberOfBaths": 2,
-          "price": "2,500",
-          "images": [
-            "image111.jpg",
-            "image112.jpg",
-            "image113.jpg"
-          ]
-        },
-        {
-          "id": "P31T3U",
-          "name": "Broadway Bliss",
-          "popularity": "Regular",
-          "listingType": "For Rent",
-          "street": "Broadway",
-          "address": "Flat #6, Broadway, New York NY 10019",
-          "numberOfRooms": 1,
-          "numberOfBeds": 1,
-          "numberOfBaths": 1,
-          "price": "1,500",
-          "images": [
-            "image114.jpg",
-            "image115.jpg"
-          ]
-        },
-        {
-          "id": "P32U2V",
-          "name": "Rockefeller Center Radiance",
-          "popularity": "Popular",
-          "listingType": "For Sale",
-          "street": "Rockefeller Center",
-          "address": "House #3, Rockefeller Center, New York NY 10112",
-          "numberOfRooms": 4,
-          "numberOfBeds": 3,
-          "numberOfBaths": 3,
-          "price": "8,333",
-          "images": [
-            "image116.jpg",
-            "image117.jpg",
-            "image118.jpg",
-            "image119.jpg"
-          ]
-        }
+
+      {
+        "id": "N52O0P",
+        "name": "Times Square Magic",
+        "popularity": "Regular",
+        "listingType": "For Rent",
+        "street": "Times Square",
+        "address": "Studio #12, Times Square, New York, NY 10036 USA",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "3,000",
+        "area": 500,
+        "images": [
+          "image175.jpg",
+          "image176.jpg"
+        ]
+      },
+      {
+        "id": "N53P1Q",
+        "name": "Rockefeller Center Charm",
+        "popularity": "Popular",
+        "listingType": "For Rent",
+        "street": "Rockefeller Center",
+        "address": "Apartment #13, Rockefeller Center, New York, NY 10112 USA",
+        "numberOfRooms": 3,
+        "numberOfBeds": 2,
+        "numberOfBaths": 2,
+        "price": "6,000",
+        "area": 1500,
+        "images": [
+          "image177.jpg",
+          "image178.jpg",
+          "image179.jpg"
+        ]
+      },
+      {
+        "id": "N54Q2R",
+        "name": "Grand Central Terminal Prestige",
+        "popularity": "Popular",
+        "listingType": "For Sale",
+        "street": "Grand Central Terminal",
+        "address": "Suite #14, Grand Central Terminal, New York, NY 10017 USA",
+        "numberOfRooms": 5,
+        "numberOfBeds": 4,
+        "numberOfBaths": 3,
+        "price": "1,000",
+        "area": 2500,
+        "images": [
+          "image180.jpg",
+          "image181.jpg",
+          "image182.jpg",
+          "image183.jpg"
+        ]
+      },
+      {
+        "id": "N55R3S",
+        "name": "Wall Street Romance",
+        "popularity": "Regular",
+        "listingType": "For Rent",
+        "street": "Wall Street",
+        "address": "Studio #15, Wall Street, New York, NY 10005 USA",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": 4000,
+        "area": 600,
+        "images": [
+          "image184.jpg",
+          "image185.jpg"
+        ]
+      },
+      {
+        "id": "N28Q2R",
+        "name": "Statue of Liberty Splurge",
+        "popularity": "Popular",
+        "listingType": "For Sale",
+        "street": "Statue of Liberty",
+        "address": "Flat #7, Statue of Liberty, New York NY 10004",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "4,167",
+        "area":900,
+        "images": [
+          "image107.jpg",
+          "image108.jpg"
+        ]
+      },
+      {
+        "id": "N29R1S",
+        "name": "Times Square Thrill",
+        "popularity": "Regular",
+        "listingType": "For Sale",
+        "street": "Times Square",
+        "address": "Flat #9, Times Square, New York NY 10036",
+        "numberOfRooms": 2,
+        "numberOfBeds": 2,
+        "numberOfBaths": 2,
+        "price": "6,667",
+        "area":1200,
+        "images": [
+          "image109.jpg",
+          "image110.jpg"
+        ]
+      },
+      {
+        "id": "P30S4T",
+        "name": "Wall Street Wonder",
+        "popularity": "Popular",
+        "listingType": "For Rent",
+        "street": "Wall Street",
+        "address": "Apartment #5, Wall Street, New York NY 10005",
+        "numberOfRooms": 3,
+        "numberOfBeds": 2,
+        "numberOfBaths": 2,
+        "price": "2,500",
+        "area":1200,
+        "images": [
+          "image111.jpg",
+          "image112.jpg",
+          "image113.jpg"
+        ]
+      },
+      {
+        "id": "P31T3U",
+        "name": "Broadway Bliss",
+        "popularity": "Regular",
+        "listingType": "For Rent",
+        "street": "Broadway",
+        "address": "Flat #6, Broadway, New York NY 10019",
+        "numberOfRooms": 1,
+        "numberOfBeds": 1,
+        "numberOfBaths": 1,
+        "price": "1,500",
+        "area":900,
+        "images": [
+          "image114.jpg",
+          "image115.jpg"
+        ]
+      },
+      {
+        "id": "P56T3U",
+        "name": "Hillway Theme",
+        "popularity": "Popular",
+        "listingType": "For Rent",
+        "street": "Gold County",
+        "address": "Flat #6, Broadway, New York NY 10019",
+        "numberOfRooms": 6,
+        "numberOfBeds": 3,
+        "numberOfBaths": 2,
+        "price": "1,500",
+        "area":900,
+        "images": [
+          "image114.jpg",
+          "image115.jpg"
+        ]
+      }
+        
+        
       ]
       
       
